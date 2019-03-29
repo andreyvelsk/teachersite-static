@@ -1,0 +1,92 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 1.6rem;
+}
+
+.top-navbar {
+  border-bottom: 2px solid #ececec;
+  background-color: rgba(255, 248, 230, 0.97);
+}
+
+.mainnavbar-logo {
+  text-align: center;
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.mainnavbar-menu {
+  width: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0;
+}
+
+.mainnavbar-menu li {
+  text-align: center;
+}
+
+.mainnavbar-menu li a {
+  position: relative;
+  display: block;
+  padding: 1rem 0;
+  margin: 1rem 2rem;
+  text-decoration: none;
+  color: #896837;
+}
+
+.mainnavbar-menu li a:after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #ad8446;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.mainnavbar-menu li a:hover::after {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+section {
+  padding: 5rem 0;
+  background-color: #fffcf4;
+}
+
+section h2 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+section .section-content {
+  padding-top: 4rem;
+}
+
+.main {
+  background-color: grey;
+  background: url("../img/main.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.4) inset;
+          box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.4) inset;
+  color: #fffcf4;
+}
+/*# sourceMappingURL=main.css.map */
