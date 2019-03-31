@@ -3,13 +3,14 @@ html {
 }
 
 body {
+  font-family: "Roboto";
   overflow-x: hidden;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .top-navbar {
   border-bottom: 2px solid #ececec;
-  background-color: rgba(255, 248, 230, 0.97);
+  background-color: rgba(255, 244, 219, 0.97);
 }
 
 .mainnavbar-logo {
@@ -67,12 +68,12 @@ body {
 }
 
 section {
-  padding: 5rem 0;
-  background-color: #fffcf4;
+  padding: 10rem 0;
+  border-bottom: 2px solid #ececec;
 }
 
 section h2 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   text-align: center;
 }
 
@@ -88,5 +89,47 @@ section .section-content {
   -webkit-box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.4) inset;
           box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.4) inset;
   color: #fffcf4;
+}
+
+.achievement {
+  background: #fff8e6;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(26%, #fff8e6), to(white));
+  background: linear-gradient(180deg, #fff8e6 26%, white 100%);
+  color: #896837;
+}
+
+.achievement-block {
+  margin-top: 5rem;
+  text-align: center;
+  border-right: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.achievement-block:last-child {
+  border: none;
+}
+
+.achievement-icon {
+  font-size: 10rem;
+  color: #896837;
+}
+
+.certificates-item img {
+  width: 100%;
+}
+
+.response {
+  background: #fff8e6;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(26%, white), to(#e9d0cb));
+  background: linear-gradient(180deg, white 26%, #e9d0cb 100%);
+  background-size: cover;
+}
+
+.response-item img {
+  width: 100%;
+}
+
+footer {
+  background-color: #88683b;
+  color: #bfa27a;
 }
 /*# sourceMappingURL=main.css.map */
